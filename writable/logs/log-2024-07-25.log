@@ -1,0 +1,93 @@
+CRITICAL - 2024-07-25 02:52:21 --> ErrorException: Undefined array key "dpi"
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos.php on line 57.
+ 1 APPPATH\Views\departamentos.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dpi"', 'C:\\xampp\\htdocs\\fs2024\\ci_tarea_ciudadanos_1\\app\\Views\\departamentos.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci_tarea_ciudadanos_1\\app\\Views\\departamentos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos', [], true)
+ 5 APPPATH\Controllers\DepartamentosController.php(12): view('departamentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartamentosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartamentosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 02:57:25 --> ErrorException: Undefined array key "dpi"
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos.php on line 60.
+ 1 APPPATH\Views\departamentos.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dpi"', 'C:\\xampp\\htdocs\\fs2024\\ci_tarea_ciudadanos_1\\app\\Views\\departamentos.php', 60)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci_tarea_ciudadanos_1\\app\\Views\\departamentos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos', [], true)
+ 5 APPPATH\Controllers\DepartamentosController.php(12): view('departamentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartamentosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartamentosController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 06:20:05 --> Error: Class "App\Controllers\MunicipiosModel" not found
+[Method: GET, Route: municipios]
+in APPPATH\Controllers\MunicipiosController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MunicipiosController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MunicipiosController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 06:21:01 --> Error: Class "App\Controllers\MunicipiosModel" not found
+[Method: GET, Route: municipios]
+in APPPATH\Controllers\MunicipiosController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MunicipiosController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MunicipiosController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 06:21:50 --> Error: Class "App\Controllers\MunicipiosModel" not found
+[Method: GET, Route: municipios]
+in APPPATH\Controllers\MunicipiosController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MunicipiosController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MunicipiosController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 06:45:31 --> ErrorException: Undefined array key "cod_muni"
+[Method: GET, Route: nivelesacademicos]
+in APPPATH\Views\nivelesAcademicos.php on line 49.
+ 1 APPPATH\Views\nivelesAcademicos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cod_muni"', 'C:\\xampp\\htdocs\\fs2024\\ci_tarea_ciudadanos_1\\app\\Views\\nivelesAcademicos.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci_tarea_ciudadanos_1\\app\\Views\\nivelesAcademicos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivelesAcademicos', [], true)
+ 5 APPPATH\Controllers\NivelAcademicoController.php(12): view('nivelesAcademicos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NivelAcademicoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NivelAcademicoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 06:46:07 --> ErrorException: Undefined array key "cod_muni"
+[Method: GET, Route: nivelesacademicos]
+in APPPATH\Views\nivelesAcademicos.php on line 52.
+ 1 APPPATH\Views\nivelesAcademicos.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cod_muni"', 'C:\\xampp\\htdocs\\fs2024\\ci_tarea_ciudadanos_1\\app\\Views\\nivelesAcademicos.php', 52)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci_tarea_ciudadanos_1\\app\\Views\\nivelesAcademicos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivelesAcademicos', [], true)
+ 5 APPPATH\Controllers\NivelAcademicoController.php(12): view('nivelesAcademicos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NivelAcademicoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NivelAcademicoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 06:55:43 --> TypeError: view(): Argument #2 ($data) must be of type array, App\Models\RegionesModel given, called in C:\xampp\htdocs\fs2024\ci_tarea_ciudadanos_1\app\Controllers\RegionesController.php on line 12
+[Method: GET, Route: regiones]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\RegionesController.php(12): view('regiones', Object(App\Models\RegionesModel))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RegionesController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegionesController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
