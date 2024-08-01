@@ -13,4 +13,5 @@ class DepartamentosModel extends Model
     ];
     //protected $returnType    = \App\Entities\User::class;
     //protected $useTimestamps = true;
+    
 }
